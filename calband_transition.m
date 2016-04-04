@@ -11,5 +11,5 @@ for tag = 1:nb
     end
     instructions(tag).i_target = i_target;
     instructions(tag).j_target = j_target;
-    instructions(
+    instructions(tag
 end

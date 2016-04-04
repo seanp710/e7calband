@@ -1,5 +1,5 @@
 function [ tag_initialform ] = tagInitialForm(initial_formation)
-% assigns tags to marchers in initial_formation
+% assigns tags to marchers in initial_formation stuff
 tag_initialform = initial_formation;
 tag = 1;
 for i = numel(initial_formation)
