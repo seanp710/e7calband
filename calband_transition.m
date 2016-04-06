@@ -10,7 +10,7 @@ for tag = 1:nb
     dCol = j_target - j_initial
     if dRow==0 && d_Col==0 % case when no move is needed
         direction = '.';
-        wait = [wait max_beats];
+        wait = max_beats;
     else % case when move needed
         switch dRow
             case dRow < 0
